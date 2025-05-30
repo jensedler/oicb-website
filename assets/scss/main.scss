@@ -1,0 +1,16 @@
+$font-sans: "Open Sans", system-ui, sans-serif;
+$font-serif: "Source Serif 4", Georgia, serif;
+
+body { font-family: $font-serif; font-size: 1rem; line-height: 1.6; margin: 0; }
+
+h1, h2, h3 { font-family: $font-sans; font-weight: 700; line-height: 1.25; }
+
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+nav a { margin-right: 1rem; text-decoration: none; color: inherit; }
